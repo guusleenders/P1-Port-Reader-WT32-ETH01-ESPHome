@@ -95,6 +95,12 @@ sensor:
     power_returned_l3:
       name: "Power Produced Phase 3"
       accuracy_decimals: 3
+    active_energy_import_current_average_demand:
+      name: "Current Average Demand"
+    active_energy_import_maximum_demand_running_month:
+      name: "Maximum Month Demand"
+    active_energy_import_maximum_demand_last_13_months:
+      name: "13 Month Maximum Quarterly Demand"
     gas_delivered:
       name: "Gas Consumed"
     gas_delivered_be:
